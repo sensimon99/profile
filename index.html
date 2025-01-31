@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <img src="./public//profile.svg" alt="Slack Profile Picture" data-testid="profilePicture">
+        </div>
+
+        <div class="location-div">
+            <div data-testid="currentLocation" class="location">
+                <!-- <span>❤️</span> -->
+                <span data-testid="currentLocation">Lagos, Nigeria</span>
+                <p id="" data-testid="currentTimeUTC">Current Time (UTC): <span data-test-id="current-hour"
+                        id="currentHour">Current Time</span>:<span data-test-id="current-minutes"
+                        id="currentMinutes">Current Time</span></p>
+                <p>Current Day: <span id="current-day" data-testid="currentDay">[Current Day]</span></p>
+            </div>
+            <div>
+                <span data-test-id="currentYear">2025</span>
+            </div>
+        </div>
+
+        <div class="contacts">
+            <li>About</li>
+            <li>Contact</li>
+            <li>Simon</li>
+        </div>
+    </nav>
+
+    <header>
+        <div>
+            <p data-testid="fullName" class="name">
+                <span>Fullname:</span> Simon Osuya
+            </p>
+        </div>
+
+        <div class="intro">
+            <div class="intro-i">
+                <p data-testid="jobTitle">HI, I’M SIMON OSUYA, A FRONTEND DEVELOPER.</p>
+            </div>
+
+            <div  data-testid="shortBio" class="intro-ii">
+                <p>
+                    My name is Simon and I am currently a frontend developer and a student of lagos state university
+                    studying computer science. i’m someone who loves exploring new ideas and learning about a variety of
+                    topics.
+                </p>
+                <p>
+                    THINGS I DO FOR FUN, I LOVE WATCHING FOOTBALL, LISTENING TO DIFFERENT GENRES OF MUSICS, MY FAVOURITE GENRE IS RAP AND TRAP. I LOVE FOOD A LOT, BUT I’M ALSO QUITE PICKY, HAHA🥲
+                </p>
+            </div>
+
+            <div class="intro-iii">
+                <button class="fav-btn">FAV PHOTO RN</button>
+                <svg class="intro-svg" xmlns="http://www.w3.org/2000/svg" width="95" height="133" viewBox="0 0 95 133"
+                    fill="none">
+                    <path
+                        d="M55.7363 79L55.3433 78.0805L55.7363 79ZM49.737 61.5L49.2047 60.6535L49.737 61.5ZM6.23704 132.5L12.0325 122.513L0.485544 122.487L6.23704 132.5ZM38.3103 0.622418C31.3001 17.8141 23.661 42.4644 23.6863 60.3764C23.6989 69.2902 25.6092 76.8783 30.8387 80.8728C36.1199 84.9068 44.3385 84.9583 56.1293 79.9195L55.3433 78.0805C43.7341 83.0417 36.4403 82.6349 32.0527 79.2834C27.6134 75.8925 25.6987 69.1681 25.6863 60.3736C25.6616 42.8689 33.1725 18.5192 40.1623 1.37758L38.3103 0.622418ZM56.1293 79.9195C70.808 73.6466 80.8795 67.4726 86.9555 62.184C89.9889 59.5437 92.0733 57.0838 93.2197 54.8992C94.358 52.7301 94.6569 50.6474 93.7404 48.9602C92.8307 47.2854 90.9196 46.3665 88.5032 46.0504C86.0625 45.7312 82.9011 45.9917 79.1329 46.8781C71.5858 48.6535 61.3886 52.9914 49.2047 60.6535L50.2694 62.3465C62.3355 54.7586 72.3257 50.534 79.5909 48.825C83.2289 47.9692 86.13 47.7571 88.2438 48.0335C90.3821 48.3132 91.5177 49.0584 91.9829 49.9148C92.4414 50.7588 92.4433 52.0746 91.4487 53.9699C90.4622 55.8498 88.5778 58.1204 85.6424 60.6754C79.7807 65.7774 69.9147 71.8534 55.3433 78.0805L56.1293 79.9195ZM49.2047 60.6535C17.0954 80.8459 6.9347 107.006 5.26199 123.401L7.25166 123.604C8.86457 107.796 18.7035 82.1973 50.2694 62.3465L49.2047 60.6535Z"
+                        fill="black" />
+                </svg>
+                <p class="intro-iii-para">got something going here <svg xmlns="http://www.w3.org/2000/svg" width="25"
+                        height="25" viewBox="0 0 25 25" fill="none">
+                        <path
+                            d="M25 12.5C25 19.4036 19.4036 25 12.5 25C5.59644 25 0 19.4036 0 12.5C0 5.59644 5.59644 0 12.5 0C19.4036 0 25 5.59644 25 12.5Z"
+                            fill="black" />
+                        <path
+                            d="M2.5 13.125C10.25 13.125 12.3958 6.45833 12.5 3.125C12.5 11.125 19.1667 13.125 22.5 13.125C14.5 13.125 12.5 19.7917 12.5 23.125C12.5 15.125 5.83333 13.125 2.5 13.125Z"
+                            fill="white" />
+                    </svg></p>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <div>
+                <img class="mountain" src="./public/mountain.svg" alt="">
+                <img class="mountain-i" src="./public//mountain-i.png" alt="">
+            </div>
+            <div class="mountain-para">
+                <p>JUST A PHOTO I LIKE</p>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="about-div">
+            <div class="about">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <circle cx="8" cy="8" r="7.5" stroke="black" />
+                    <p>about</p>
+                </svg>
+            </div>
+
+            <div class="about-i">
+                <p>
+                    My curiosity drives me to dive into challenging subjects for school, and I often find myself discovering new interests in the process. I enjoy reading, researching, and engaging in conversations that spark curiosity and broaden my understanding of the world.
+                </p>
+
+                <p>
+                    In addition to my academic pursuits, I value my friendships and strive to be a reliable support for
+                    my
+                    friends. Whether it's helping them with homework or sharing insights I've gained, I enjoy being
+                    there
+                    for others. I believe that learning is a shared experience, and I love discussing concepts and ideas
+                    with those around me.
+                </p>
+
+                <p>
+                    Outside of schoolwork, I also enjoy spending my free time exploring hobbies that inspire creativity
+                    and
+                    relaxation. Whether it's trying out new recipes, listening to music, or discovering new shows and
+                    movies, I appreciate activities that enrich my life. Overall, I am passionate about continuous
+                    learning
+                    and building meaningful connections with others.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <li data-testid="socialLinks"><a href="https://github.com/sensimon99">GitHub</li>
+            <li data-testid="socialLinks"><a href="https://x.com/heis_simon99?s=21'>">twitter</li>
+            <li data-testid="socialLinks"><a
+                    href='https://www.linkedin.com/in/simon-osuya-258a1a2b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'>linkedin
+            </li>
+        </div>
+        <div class="small">
+            <p>coNTACT ME, LET’S MAKE MAGIC ✨</p>
+        </div>
+        <div>
+            <p class="email"><span data-testid="emailAddress"><a href="mailto:simonosuya@gmail.com">send mail</a></span>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
